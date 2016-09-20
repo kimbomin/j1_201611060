@@ -1,0 +1,12 @@
+void sayHello() {
+   System.out.println("Hello");
+}
+class Hello {
+   String toWhom="Bomin";
+   Hello() {}
+   void sayHello() {
+      System.out.println("Hello "+toWhom);
+   }
+}
+Hello a=new Hello();
+a.sayHello()
