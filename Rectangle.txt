@@ -24,6 +24,7 @@ setHeight(height);
 public int sjfqdl() {
    return width*height;
 }
+}
 
 Rectangle r=new Rectangle(5,5);
 r.sjfqdl();
