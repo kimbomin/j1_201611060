@@ -1,0 +1,30 @@
+public class Rectangle {
+   private int width;
+   private int height;
+public Rectangle (int width, int height) {
+   this.width=width;
+   this.height=height;
+}
+public int getWidth() {
+   return width;
+}
+public int getHeight() {
+   return height;
+}
+public void setWidth(int newWidth) {
+width=newWidth;
+}
+public void setHeight(int newHeight) {
+height=newHeight;
+}
+public void setSize(int width, int height) {
+setWidth(width);
+setHeight(height);
+}
+public int sjfqdl() {
+   return width*height;
+}
+
+Rectangle r=new Rectangle(5,5);
+r.sjfqdl();
+r.setSize(2,2);
